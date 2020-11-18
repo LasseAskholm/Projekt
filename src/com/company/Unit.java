@@ -8,7 +8,7 @@ public abstract class Unit {
 
     public Unit(String name){
         this.name=name;
-        id=UUID.fromString(name);
+        id=UUID.randomUUID();
     }
     public UUID getID(){
         return this.id;

@@ -15,18 +15,19 @@ public class BuildingSystem {
     public List<Building> getBuildings() {
         return buildings;
     }
+
+
     public UUID addBuilding(String name){
         Building building=new Building(name);
         buildings.add(building);
         return building.getID();
     }
+    public UUID addBuilding(Building building){
+        buildings.add(building);
+        return building.getID();
+    }
 
     public void removeBuilding(UUID id){
-        for (Building building:buildings) {
-            if(building.getID()==id){
-                buildings.remove(building);
-            }
-
-        }
+        buildings.removeIf(building -> building.getID() == id);
     }
 }

@@ -35,11 +35,7 @@ public class Building extends Unit {
     }
 
     public void removeSensor(UUID id){
-        for (Sensor sensor:sensors) {
-            if(sensor.getID()==id){
-                sensors.remove(sensor);
-            }
-        }
+        sensors.removeIf(sensor -> sensor.getID() == id);
     }
 
     public UUID addVentActuator(String name){
@@ -48,11 +44,26 @@ public class Building extends Unit {
         return ventilationActuator.getID();
     }
     public void removeActuator(UUID id){
-        for (Actuator actuator:actuators) {
-            if(actuator.getID()==id){
-                actuators.remove(actuator);
+        actuators.removeIf(actuator -> actuator.getID() == id);
+    }
+
+    public Sensor getSensorFromID(UUID id){
+        for ( Sensor sensor :
+                sensors ) {
+            if(sensor.getID() == id){
+                return sensor;
             }
         }
+        return null;
+    }
+    public Actuator getActuatorFromID(UUID id){
+        for ( Actuator actuator :
+                actuators ) {
+            if(actuator.getID() == id){
+                return actuator;
+            }
+        }
+        return null;
     }
 
 }
