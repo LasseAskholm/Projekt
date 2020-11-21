@@ -1,0 +1,25 @@
+DATA FOR PROJECT
+
+ca025d44-4cfe-4291-806c-f86c675183e8
+Time: Sat Nov 21 14:33:55 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:54 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:53 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:52 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:51 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:50 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:49 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:48 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:47 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+Time: Sat Nov 21 14:33:46 CET 2020 name: actuator id: ca025d44-4cfe-4291-806c-f86c675183e8 value: 69.0
+
+594911ba-742a-4996-8a9a-a66254ea0b36
+Time: Sat Nov 21 14:33:55 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:54 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:53 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:52 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:51 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:50 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:49 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:48 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:47 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0
+Time: Sat Nov 21 14:33:46 CET 2020 name: West Door id: 594911ba-742a-4996-8a9a-a66254ea0b36 value: 10.0

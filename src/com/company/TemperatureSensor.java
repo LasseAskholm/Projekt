@@ -1,5 +1,8 @@
 package com.company;
 
+import java.io.FileNotFoundException;
+import java.util.Date;
+
 public class TemperatureSensor extends Sensor {
 
 
@@ -12,6 +15,6 @@ public class TemperatureSensor extends Sensor {
 
     @Override
     public String toString() {
-        return"name: "+this.getName()+" id: "+this.getID()+" value: "+getValue();
+        return "Time: " + new Date() + " name: "+this.getName()+" id: "+this.getID()+" value: "+getValue();
     }
 }

@@ -1,5 +1,7 @@
 package com.company;
 
+import java.io.FileNotFoundException;
+import java.util.Date;
 import java.util.UUID;
 
 public class Co2Sensor extends Sensor {
@@ -12,7 +14,7 @@ public class Co2Sensor extends Sensor {
 
     @Override
     public String toString() {
-        return"name: "+this.getName()+" id: "+this.getID()+" value: "+getValue();
+        return "Time: " + new Date() + " name: "+this.getName()+" id: "+this.getID()+" value: "+getValue();
     }
 
 

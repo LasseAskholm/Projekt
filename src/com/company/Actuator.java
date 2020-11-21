@@ -1,5 +1,9 @@
 package com.company;
 
+import dataAccess.Save;
+
+import java.io.FileNotFoundException;
+
 public abstract class Actuator extends Unit {
     private double value;
 
@@ -14,5 +18,9 @@ public abstract class Actuator extends Unit {
 
     public double getValue() {
         return value;
+    }
+
+    public void saveValue() throws FileNotFoundException {
+        Save.save(this.getID(), this.toString());
     }
 }

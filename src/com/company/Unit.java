@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Date;
 import java.util.UUID;
 
 public abstract class Unit {
@@ -20,6 +21,6 @@ public abstract class Unit {
 
     @Override
     public String toString() {
-        return "Name: "+getName()+" Id: "+getID();
+        return "Time: "+ new Date() + " Name: "+getName()+" Id: "+getID();
     }
 }

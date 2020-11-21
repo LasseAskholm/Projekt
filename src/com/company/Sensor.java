@@ -1,6 +1,9 @@
 package com.company;
 
 
+import dataAccess.Save;
+
+import java.io.FileNotFoundException;
 import java.util.UUID;
 
 public abstract class  Sensor extends Unit {
@@ -14,11 +17,11 @@ public abstract class  Sensor extends Unit {
     }
 
 
+    public void saveValue() throws FileNotFoundException {
+        Save.save(this.getID(), this.toString());
+    }
 
-    public double getValue(){
-
-
-
+    public double getValue() {
         return this.value;
     }
 

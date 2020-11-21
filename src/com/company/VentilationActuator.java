@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Date;
+
 public class VentilationActuator extends Actuator {
 
     public VentilationActuator(String name, double value) {
@@ -8,6 +10,6 @@ public class VentilationActuator extends Actuator {
 
     @Override
     public String toString() {
-        return"name: "+this.getName()+" id: "+this.getID()+" value: "+getValue();
+        return "Time: " + new Date() + " name: "+this.getName()+" id: "+this.getID()+" value: "+getValue();
     }
 }
