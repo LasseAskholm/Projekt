@@ -1,5 +1,6 @@
 package com.company;
 
+
 import java.util.UUID;
 
 public abstract class  Sensor extends Unit {
@@ -15,6 +16,9 @@ public abstract class  Sensor extends Unit {
 
 
     public double getValue(){
+
+
+
         return this.value;
     }
 
